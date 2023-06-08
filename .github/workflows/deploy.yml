@@ -5,7 +5,7 @@ on:
   # Vous utilisez un nom de branche différent ? Remplacez `main` par le nom de votre branche
   push:
     branches: [ main ]
-  # Vous permet d'exécuter ce workflow manuellement à partir de l'onglet Actions sur GitHub
+  # Vous permet d'exécuter ce workflow manuellement à partir de l'onglet Actions sur GitHub.
   workflow_dispatch:
   
 # Autoriser cette tâche à cloner le dépôt et à créer un déploiement de page
