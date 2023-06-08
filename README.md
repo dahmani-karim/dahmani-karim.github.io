@@ -2,7 +2,7 @@
 
 <img src="/public/assets/capture.png">
 
-## Portfolio made with [Astro] (https://astro.build/)
+## Portfolio made with [Astro](https://astro.build/)
 
 > 🧑‍🚀 **Seasoned astronaut?** Try Astro and have fun!
 
