@@ -1,4 +1,4 @@
-# Astro Starter Kit: Portfolio
+# Portfolio made with Astro Build
 
 ```
 npm create astro@latest -- --template portfolio
