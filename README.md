@@ -1,4 +1,4 @@
-# Visit my Portfolio =>> <a href="https://dahmani-karim.github.io" target="_blank" rel="noopener"> HERE</a>
+# Visit my Portfolio =>> [HERE](https://dahmani-karim.github.io)
 
 <img src="/public/assets/capture.png">
 
