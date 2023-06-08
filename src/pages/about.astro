@@ -1,0 +1,158 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="A Propos | Karim Dahmani" description="À propos de Karim Dahmani">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À Propos"
+				tagline="Merci de votre visite. Pour en apprendre plus sur mon parcours, retrouvez plus de détails ci-dessous."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Karim Dahmani au travail"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Profil</h2>
+				<div class="content">
+					<p>
+						Après de belles et multiples expériences dans divers domaines, il est temps pour moi d'atteindre l'objectif le plus important dans la vie d'un salarié qu'est l'épanouissement professionnel.
+					</p>
+					<p>
+						C'est pourquoi j'ai décidé d'entreprendre une reconversion professionnelle et faire de ma passion pour le monde de la Tech, et plus particulièrement de la programmation, mon futur métier à temps plein !
+					</p>
+					<p>
+						Pour atteindre ce but dans les meilleures conditions, j'ai opté pour un parcours de formation en alternance menant au titre RNCP de Développeur Concepteur d'Application en environnement DevOps.
+					</p>
+					<p>
+						Je recherche actuellement sur la région Île de France, l'entreprise idéale pour m'accueillir durant cette période et qui saura m'épauler dans cette nouvelle aventure.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Formation en cours</h2>
+				<div class="content">
+					<p>
+						Organisme de formation : Simplon.co
+					</p>
+					<p>
+						Certifications et spécialités visées :
+					</p>
+					<p>
+						RNCP31678 Concepteur développeur d'applications
+					</p>
+					<p>
+						RS5043 Exploiter les outils de développement de la chaîne DevOps
+					</p>
+					<p>
+						RS5487 Gérer un projet en mobilisant les méthodes agiles.
+					</p>
+					<p>
+						Début : Septembre2023
+					</p>
+					<p>
+						Durée : 18 mois
+					</p>
+					<p>
+						Rythme : 3 semaines en entreprise et 1 semaine en formation</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Formation</h2>
+				<div class="content">
+					<p>
+						- BAC +3/4 RNCP Concepteur Développeur d'Applications DevOps - 2023 à 2025
+					</p>
+					<p>
+						- DUT Informatique - 2009
+					</p>
+					<p>
+						- BAC STI Electronique - 2007
+					</p>
+					<p>
+						- Brevet des collèges - 2002
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Soft Skills</h2>
+				<div class="content">
+					<p>- Gestion du stress et des risques psychosociaux</p>
+					<p>- Travail en équipe et en autonomie</p>
+					<p>- Curiosité Intellectuelle, rigueur et adaptabilité</p>
+					<p>- Gestion de la relation client et des litiges</p>
+					<p>- Gestion des priorités et organisation du temps de travail</p>
+					<p>- Formation collaborateur et Management d'équipe</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
