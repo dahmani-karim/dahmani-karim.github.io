@@ -9,7 +9,7 @@ tags:
   - ERP
   - Test
   - Recette
-  - Formation utilisateurs
+  - Formation
 ---
 
 ## Le projet
