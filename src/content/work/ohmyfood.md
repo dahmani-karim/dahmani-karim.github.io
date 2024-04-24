@@ -6,29 +6,21 @@ img_alt: Photo d'un plat
 visit_link: /OhMyFood-DK-OC-IW-P4/
 code: https://github.com/dahmani-karim/OhMyFood-DK-OC-IW-P4
 description: |
-  Site d'un restaurant.
+  A restaurant site.
 tags:
   - SASS
-  - Animations
+  - Animation
   - Mobile First
   - Figma
 ---
 
-> Créer le site
+> Enhance a mobile site's interface with CSS animations
 
-## Le scenario
+## Scenario
 
 explication 
 
 
-### partie1
-
-explication
-
-### partie2
-
-explication
-
-### partie3
+### Work done
 
 explication

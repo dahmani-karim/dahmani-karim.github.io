@@ -10,20 +10,12 @@ tags:
   - JavaScript
 ---
 
-> Créer un portfolio en JavaScript
+> Create a dynamic web page with JavaScript
 
-## Le scenario
+## Scenario
 
 explication 
 
-### partie1
-
-explication
-
-### partie2
-
-explication
-
-### partie3
+### Work done
 
 explication

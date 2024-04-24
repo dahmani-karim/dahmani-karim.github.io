@@ -6,30 +6,20 @@ img_alt: Exemple bien immobilier Kasa
 visit_link: /Kasa-DK-OC-IW-P8/
 code: https://github.com/dahmani-karim/Kasa-DK-OC-IW-P8
 description: |
-  Site de location immobilière.
+  A real estate rental site.
 tags:
-  - SEO
-  - Accessibility
-  - Performances
-  - LightHouse
-  - Wave
+  - ReactJS
+  - Components
+  - React-Router
 ---
 
-> Créer le site d'une agence de location immobilière avec ReactJS
+> Create a property rental agency website with ReactJS
 
-## Le scenario
+## Scenario
 
 explication 
 
 
-### partie1
-
-explication
-
-### partie2
-
-explication
-
-### partie3
+### Work done
 
 explication
