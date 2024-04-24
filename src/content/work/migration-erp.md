@@ -2,7 +2,7 @@
 title: Migration ERP
 publishDate: 2023-06-08 10:00:00
 img: /assets/erp.jpeg
-img_alt: Migration ERP
+img_alt: Illustration de Migration vers un ERP
 description: |
   Migration vers ERP Dynamics365 des bases de données du Group UP.
 tags:
