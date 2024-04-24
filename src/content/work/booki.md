@@ -1,7 +1,7 @@
 ---
 title: Booki
 publishDate: 2023-06-08 10:00:00
-img: ../../public/assets/booki.png
+img: /assets/booki.png
 img_alt: Illustration Booki
 visit_link: /Booki-DK-OC-IW-P3/
 description: |
