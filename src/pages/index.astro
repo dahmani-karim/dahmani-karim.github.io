@@ -39,9 +39,18 @@ const projects = (await getCollection('work'))
 						<Pill><Icon icon="pencil-line" size="1.33em" /> Author</Pill>
 						<Pill><Icon icon="rocket-launch" size="1.33em" /> Content Creator</Pill>
 					</div>
+					<div id="technos">
+						<img id="sass" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass"/>
+						<img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative"/>
+						<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript"/>
+						<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma"/>
+						<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"/>
+						<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"/>
+					</div>
 				</Hero>
 
 				<img
+					id="portrait"
 					alt="Profil picture of Karim Dahmani"
 					width="480"
 					height="620"
@@ -124,6 +133,29 @@ const projects = (await getCollection('work'))
 
 	.roles {
 		display: none;
+	}
+
+	#technos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem;
+		width: 100%;
+		margin-top: 2rem;
+		padding: 1.5rem;
+		border: 1px solid var(--gray-800);
+		border-radius: 1.5rem;
+	}
+
+	#technos img {
+		aspect-ratio: 1 / 1;
+		object-fit: fill;
+		border-radius: 0;
+		background-color: rgba(0, 0, 0, 0);
+		box-shadow: none;
+		padding: 0.1rem;
+		width: 80px;
+		height: 80px;
 	}
 
 	.hero img {
