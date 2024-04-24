@@ -1,0 +1,257 @@
+---
+// Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Component Imports
+import Grid from '../components/Grid.astro';
+import Hero from '../components/Hero.astro';
+
+// Page section components
+import ContactCTA from '../components/ContactCTA.astro';
+---
+
+<BaseLayout>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="My Certifications"
+				tagline="I have a few certifications that I've earned over the years. Here are a few of them."
+				align="start"
+			/>
+			<section id="OC">
+				<h3>
+					My certifications issued by OpenClassrooms.
+				</h3>
+				<Grid variant="small">
+					{
+						[
+							<a href="https://openclassrooms.com/fr/course-certificates/6524538299" target="_blank"> Déboguer l'interface d'un site</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/2882620327" target="_blank"> Appliquer les principes du Green IT</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/6268882210" target="_blank"> Tester l'interface d'un site</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/2245054435" target="_blank"> Augmenter le trafic grâce au référencement naturel (SEO)</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/3087289254" target="_blank"> Débuter avec React</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/8397609430" target="_blank"> Écrire la documentation technique d'un projet</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/2936135041" target="_blank"> Initiation à la gestion de projet agile</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/5133780197" target="_blank"> Gérer du code avec Git et GitHub</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/4707854773" target="_blank"> Gérer un projet informatique facilement</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/3807541166" target="_blank"> Devenir développeur agile</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/7887826911" target="_blank"> Créer des pages web dynamiques avec JavaScript</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/1353682516" target="_blank"> Devenir un expert de Git et GitHub</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/9366410700" target="_blank"> Mettre en place un système de veille informationnelle</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/4639468181" target="_blank"> Créer des animations CSS modernes</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/3836643187" target="_blank"> Simplifier le CSS avec Sass</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/1645630072" target="_blank"> Corriger des bugs et trouver une solution aux problèmes de code</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/6516256213" target="_blank"> Intégrer une maquette Figma en HTML/CSS</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/1496578295" target="_blank"> Créer une maquette web avec Figma</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/6130747474" target="_blank"> Apprendre à utiliser la ligne de commande dans un terminal</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/5192939507" target="_blank"> Comprendre le Web</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/6228077024" target="_blank"> Apprendre à programmer avec JavaScript</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/1736158509" target="_blank"> Mettre en place un environnement front-end</a> ,
+							<a href="https://openclassrooms.com/fr/course-certificates/2969077753" target="_blank"> Créer un site web avec HTML5 et CSS3</a>
+						].map((brand) => (
+							<li class="mention-card">
+								<p>{brand}</p>
+							</li>
+						))
+					}
+				</Grid>
+			</section>
+			<section id="SoloLearn">
+				<h3>
+					Below are the certifications issued by the online training organization SoloLearn. Find my <a href="https://www.sololearn.com/profile/28228699" target="_blank">SoloLearn profile</a>
+				</h3>
+				<Grid variant="small">
+					{
+						[
+							<a href="https://www.sololearn.com/certificates/CC-ZVSHQOPA" target="_blank"> Tech For Everyone</a> ,
+							<a href="https://www.sololearn.com/certificates/CC-SXWBGQUM" target="_blank"> SQL<br>Introduction</a> ,
+							<a href="https://www.sololearn.com/certificates/CC-ZLCONTWG" target="_blank"> SQL<br>Intermédiaire</a> ,
+							<a href="https://www.sololearn.com/certificates/CC-9B6RAJ5E" target="_blank"> HTML<br>Introduction</a> ,
+							<a href="https://www.sololearn.com/certificates/CT-W0WZTRIW" target="_blank"> PHP</a> ,
+							<a href="https://www.sololearn.com/certificates/CC-R5ILOYID" target="_blank"> CSS<br>Introduction</a> ,
+							<a href="https://www.sololearn.com/certificates/CC-PDECLVUL" target="_blank"> C++<br>Introduction</a> ,
+							<a href="https://www.sololearn.com/certificates/CC-LKEDAPSF" target="_blank"> PYTHON<br>Introduction</a>
+						].map((brand) => (
+							<li class="mention-card">
+								<p>{brand}</p>
+							</li>
+						))
+					}
+				</Grid>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	h3 {
+		text-align: center;
+		margin: 2rem;
+	}
+
+	.hero {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 2rem;
+	}
+
+	.roles {
+		display: none;
+	}
+
+	#technos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem;
+		width: 100%;
+		margin-top: 2rem;
+		padding: 1.5rem;
+		border: 1px solid var(--gray-800);
+		border-radius: 1.5rem;
+	}
+
+	#technos img {
+		aspect-ratio: 1 / 1;
+		object-fit: fill;
+		border-radius: 0;
+		background-color: rgba(0, 0, 0, 0);
+		box-shadow: none;
+		padding: 0.1rem;
+		width: 60px;
+		height: 60px;
+	}
+
+	.hero img {
+		aspect-ratio: 5 / 4;
+		object-fit: cover;
+		object-position: top;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	@media (min-width: 50em) {
+		.hero {
+			display: grid;
+			grid-template-columns: 6fr 4fr;
+			padding-inline: 2.5rem;
+			gap: 3.75rem;
+		}
+
+		.roles {
+			margin-top: 0.5rem;
+			display: flex;
+			gap: 0.5rem;
+		}
+
+		.hero img {
+			aspect-ratio: 3 / 4;
+			border-radius: 4.5rem;
+			object-fit: cover;
+		}
+	}
+
+	/* ====================================================== */
+
+	.section {
+		display: grid;
+		gap: 2rem;
+	}
+
+	.with-background {
+		position: relative;
+	}
+
+	.with-background::before {
+		--hero-bg: var(--bg-image-subtle-2);
+
+		content: '';
+		position: absolute;
+		pointer-events: none;
+		left: 50%;
+		width: 100vw;
+		aspect-ratio: calc(2.25 / var(--bg-scale));
+		top: 0;
+		transform: translateY(-75%) translateX(-50%);
+		background: url('/assets/backgrounds/noise.png') top center/220px repeat,
+			var(--hero-bg) center center / var(--bg-gradient-size) no-repeat, var(--gray-999);
+		background-blend-mode: overlay, normal, normal, normal;
+		mix-blend-mode: var(--bg-blend-mode);
+		z-index: -1;
+	}
+
+	.with-background.bg-variant::before {
+		--hero-bg: var(--bg-image-subtle-1);
+	}
+
+	.section-header {
+		justify-self: center;
+		text-align: center;
+		max-width: 50ch;
+		font-size: var(--text-md);
+		color: var(--gray-300);
+	}
+
+	.section-header h3 {
+		font-size: var(--text-2xl);
+	}
+
+	@media (min-width: 50em) {
+		.section {
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-areas: 'header header header header' 'gallery gallery gallery gallery';
+			gap: 5rem;
+		}
+
+		.section.with-cta {
+			grid-template-areas: 'header header header cta' 'gallery gallery gallery gallery';
+		}
+
+		.section-header {
+			grid-area: header;
+			font-size: var(--text-lg);
+		}
+
+		.section-header h3 {
+			font-size: var(--text-4xl);
+		}
+
+		.with-cta .section-header {
+			justify-self: flex-start;
+			text-align: left;
+		}
+
+		.gallery {
+			grid-area: gallery;
+		}
+
+		.cta {
+			grid-area: cta;
+		}
+	}
+
+	/* ====================================================== */
+
+	.mention-card {
+		display: flex;
+		height: 7rem;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		border: 1px solid var(--gray-800);
+		border-radius: 1.5rem;
+		color: var(--gray-300);
+		background: var(--gradient-subtle);
+		box-shadow: var(--shadow-sm);
+	}
+
+	@media (min-width: 50em) {
+		.mention-card {
+			border-radius: 1.5rem;
+			height: 9.5rem;
+		}
+	}
+</style>
