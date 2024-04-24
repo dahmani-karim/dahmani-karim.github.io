@@ -32,7 +32,7 @@ const { Content } = await entry.render();
 		<div class="stack gap-15">
 			<header>
 				<div class="wrapper stack gap-2">
-					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
+					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> All projects</a>
 					<Hero title={entry.data.title} align="start">
 						<div class="details">
 							<div class="tags">
@@ -48,6 +48,9 @@ const { Content } = await entry.render();
 					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
 					<div class="content">
 						<Content />
+					</div>
+					<div>
+						<a href="/NinaCarducci-DK-OC-IW-P9/" target="_blank" class="astro-BALV45LP">Visit site</a>
 					</div>
 				</div>
 			</main>
