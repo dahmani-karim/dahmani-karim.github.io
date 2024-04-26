@@ -1,6 +1,6 @@
 ---
 title: Kasa
-publishDate: 2023-06-08 10:00:00
+publishDate: 2024-02-01 10:00:00
 img: /assets/kasa.webp
 img_alt: Exemple bien immobilier Kasa
 visit_link: /Kasa-DK-OC-IW-P8/

@@ -1,6 +1,6 @@
 ---
 title: Migration ERP
-publishDate: 2023-06-08 10:00:00
+publishDate: 2020-02-01 10:00:00
 img: /assets/erp.webp
 img_alt: Illustration de Migration vers un ERP
 description: |
