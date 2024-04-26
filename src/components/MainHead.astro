@@ -18,6 +18,14 @@ const {
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
 
+<!-- SEO -->
+<!-- Schema.org -->
+<div itemscope itemtype="http://schema.org/Person">
+	<meta itemprop="name" content={title} />
+	<meta itemprop="description" content={description} />
+	<meta itemprop="image" content="https://raw.githubusercontent.com/dahmani-karim/dahmani-karim.github.io/main/public/assets/portrait.webp" />
+</div>
+
 <!-- Permissions Policy -->
 <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 
