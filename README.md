@@ -1,6 +1,6 @@
 # Visit my Portfolio =>> [HERE](https://dahmani-karim.github.io)
 
-<img src="/public/assets/capture.png">
+<img src="/public/assets/capture.webp">
 
 ## Portfolio made with [Astro](https://astro.build/)
 

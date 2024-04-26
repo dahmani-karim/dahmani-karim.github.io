@@ -1,7 +1,7 @@
 ---
 title: Projet Stargate
 publishDate: 2023-06-07 18:00:00
-img: /assets/stargate.jpg
+img: /assets/stargate.webp
 img_alt: Porte des étoiles Stargate
 description: |
   Développement d'un logiciel de comptabilité interne pour les complexes du groupe UGC

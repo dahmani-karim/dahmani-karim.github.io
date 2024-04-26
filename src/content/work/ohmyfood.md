@@ -1,7 +1,7 @@
 ---
 title: Oh My Food
 publishDate: 2023-06-08 10:00:00
-img: https://dahmani-karim.github.io/OhMyFood-DK-OC-IW-P4/assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg
+img: /assets/ohmyfood.webp
 img_alt: Photo d'un plat
 visit_link: /OhMyFood-DK-OC-IW-P4/
 code: https://github.com/dahmani-karim/OhMyFood-DK-OC-IW-P4
