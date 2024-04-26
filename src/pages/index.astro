@@ -40,20 +40,24 @@ const projects = (await getCollection('work'))
 						<Pill><Icon icon="rocket-launch" size="1.33em" /> Content Creator</Pill>
 					</div>
 					<div id="technos">
-						<img id="sass" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass"/>
-						<img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative"/>
-						<img src="https://redux-toolkit.js.org/img/redux.svg" alt="redux-toolkit"/>
-						<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript"/>
-						<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma"/>
-						<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"/>
-						<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"/>
+						<div id="titleTechnos">
+							<Icon icon="code" color="var(--accent-regular)" size="2.5rem" gradient />
+							<h2>My Technos</h2>
+						</div>
+						<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SASS logo"/>
+						<img src="https://reactnative.dev/img/header_logo.svg" alt="ReactNative logo"/>
+						<img src="https://redux-toolkit.js.org/img/redux.svg" alt="Redux-Toolkit logo"/>
+						<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript logo"/>
+						<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma logo"/>
+						<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git logo"/>
+						<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Nodejs logo"/>
 						<img src="/assets/google-lighthouse.svg" alt="lighthouse"/>
 					</div>
 				</Hero>
 
 				<img
 					id="portrait"
-					alt="Profil picture of Karim Dahmani"
+					alt="Profil picture of Karim"
 					width="480"
 					height="620"
 					src="/assets/portrait.webp"
@@ -89,38 +93,6 @@ const projects = (await getCollection('work'))
 					</CallToAction>
 				</div>
 			</section>
-
-			{/*
-			<section class="section with-background bg-variant">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Certifications</h3>
-					<p>
-						Below are the certifications issued by the online training organization SoloLearn. Find my <a href="https://www.sololearn.com/profile/28228699" target="_blank">SoloLearn profile</a>
-					</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							[
-								<a href="https://www.sololearn.com/certificates/CC-ZVSHQOPA" target="_blank"> Tech For Everyone</a> ,
-								<a href="https://www.sololearn.com/certificates/CC-SXWBGQUM" target="_blank"> SQL<br>Introduction</a> ,
-								<a href="https://www.sololearn.com/certificates/CC-ZLCONTWG" target="_blank"> SQL<br>Intermédiaire</a> ,
-								<a href="https://www.sololearn.com/certificates/CC-9B6RAJ5E" target="_blank"> HTML<br>Introduction</a> ,
-								<a href="https://www.sololearn.com/certificates/CT-W0WZTRIW" target="_blank"> PHP</a> ,
-								<a href="https://www.sololearn.com/certificates/CC-R5ILOYID" target="_blank"> CSS<br>Introduction</a> ,
-								<a href="https://www.sololearn.com/certificates/CC-PDECLVUL" target="_blank"> C++<br>Introduction</a> ,
-								<a href="https://www.sololearn.com/certificates/CC-LKEDAPSF" target="_blank"> PYTHON<br>Introduction</a>
-							].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-			</section>
-			*/}
 		</main>
 
 		<ContactCTA />
@@ -160,6 +132,17 @@ const projects = (await getCollection('work'))
 		padding: 0.1rem;
 		width: 60px;
 		height: 60px;
+	}
+
+	#titleTechnos {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+		width: 100%;
+		h2 {
+			font-size: 34px;
+		}
 	}
 
 	.hero img {

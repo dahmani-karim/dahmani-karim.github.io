@@ -13,15 +13,33 @@ const {
 ---
 
 <meta charset="UTF-8" />
+<meta name="keywords" content={description} />
 <meta name="description" property="og:description" content={description} />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
+
+<!-- Open Graph -->
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content="https://dahmani-karim.github.io" />
+<meta property="og:image" content="/assets/portrait.webp" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content="/assets/portrait.webp" />
+<!-- <meta name="twitter:site" content="@your-twitter-handle" /> -->
+
 <title>{title}</title>
 
+<link rel="canonical" href="https://dahmani-karim.github.io" />
 <link rel="icon" type="image/svg+xml" href="/faviconDev.svg" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400&family=Rubik:wght@500;600&display=swap" rel="stylesheet" media="all"/>
+<link rel="preload" href="/faviconDev.svg" as="image" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400&family=Rubik:wght@500;600&display=swap" media="print" onload="this.media='all'" />
 
 <script is:inline>
 	// This code is inlined in the head to make dark mode instant & blocking.
