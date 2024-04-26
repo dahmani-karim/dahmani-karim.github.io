@@ -39,7 +39,8 @@ const {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400&family=Rubik:wght@500;600&display=swap" rel="stylesheet" media="all"/>
 <link rel="preload" href="/faviconDev.svg" as="image" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400&family=Rubik:wght@500;600&display=swap" media="print" onload="this.media='all'" />
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400&family=Rubik:wght@500;600&display=swap" as="style" onload="this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400&family=Rubik:wght@500;600&display=swap"></noscript>
 
 <script is:inline>
 	// This code is inlined in the head to make dark mode instant & blocking.
@@ -60,4 +61,17 @@ const {
 		});
 		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
 	}
+</script>
+<script>
+	if (!('onload' in document.createElement('link'))) {
+		var links = document.getElementsByTagName('link');
+		for (var i = 0; i < links.length; i++) {
+			var link = links[i];
+			if (link.rel === 'preload' && link.as === 'style' && !link.onload) {
+		  		link.onload = function() {
+				(this as HTMLLinkElement).rel = 'stylesheet';
+		  	};
+		}
+	}
+}
 </script>
