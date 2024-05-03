@@ -5,16 +5,16 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 // Component Imports
-import CallToAction from '../components/CallToAction.astro';
-import Grid from '../components/Grid.astro';
-import Hero from '../components/Hero.astro';
-import Icon from '../components/Icon.astro';
-import Pill from '../components/Pill.astro';
-import PortfolioPreview from '../components/PortfolioPreview.astro';
+import CallToAction from '../components/CallToAction/CallToAction.astro';
+import Grid from '../components/Grid/Grid.astro';
+import Hero from '../components/Hero/Hero.astro';
+import Icon from '../components/Icon/Icon.astro';
+import Pill from '../components/Pill/Pill.astro';
+import PortfolioPreview from '../components/PortfolioPreview/PortfolioPreview.astro';
 
 // Page section components
-import ContactCTA from '../components/ContactCTA.astro';
-import Skills from '../components/Skills.astro';
+import ContactCTA from '../components/ContactCTA/ContactCTA.astro';
+import Skills from '../components/Skills/Skills.astro';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -39,20 +39,6 @@ const projects = (await getCollection('work'))
 						<Pill><Icon icon="pencil-line" size="1.33em" /> Author</Pill>
 						<Pill><Icon icon="rocket-launch" size="1.33em" /> Content Creator</Pill>
 					</div>
-					<div id="technos">
-						<div id="titleTechnos">
-							<Icon icon="code" color="var(--accent-regular)" size="2.5rem" gradient />
-							<h2>My Technos</h2>
-						</div>
-						<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SASS logo" loading="eager"/>
-						<img src="https://reactnative.dev/img/header_logo.svg" alt="ReactNative logo" loading="eager"/>
-						<img src="https://redux-toolkit.js.org/img/redux.svg" alt="Redux-Toolkit logo" loading="eager"/>
-						<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript logo" loading="eager"/>
-						<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma logo" loading="eager"/>
-						<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git logo" loading="eager"/>
-						<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Nodejs logo" loading="eager"/>
-						<img src="/assets/google-lighthouse.svg" alt="lighthouse" loading="eager"/>
-					</div>
 				</Hero>
 
 				<img
@@ -64,6 +50,20 @@ const projects = (await getCollection('work'))
 					loading="eager"
 				/>
 			</header>
+			<div id="technos">
+				<div id="titleTechnos">
+					<Icon icon="code" color="var(--accent-regular)" size="2.5rem" gradient />
+					<h2>My Technos</h2>
+				</div>
+				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SASS logo" loading="eager"/>
+				<img src="https://reactnative.dev/img/header_logo.svg" alt="ReactNative logo" loading="eager"/>
+				<img src="https://redux-toolkit.js.org/img/redux.svg" alt="Redux-Toolkit logo" loading="eager"/>
+				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript logo" loading="eager"/>
+				<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma logo" loading="eager"/>
+				<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git logo" loading="eager"/>
+				<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Nodejs logo" loading="eager"/>
+				<img src="/assets/google-lighthouse.svg" alt="lighthouse" loading="eager"/>
+			</div>
 
 			<Skills />
 		</div>
