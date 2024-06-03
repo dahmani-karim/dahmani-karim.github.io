@@ -4,31 +4,31 @@ publishDate: 2020-02-01 10:00:00
 img: /assets/erp.webp
 img_alt: Illustration de Migration vers un ERP
 description: |
-  Migration vers ERP Dynamics365 des bases de données du Group UP.
+  Migration of UP Group databases to ERP Dynamics 365.
 tags:
   - ERP
-  - Test
-  - Recette
-  - Formation
+  - Testing
+  - Acceptance
+  - Training
 ---
 
 ## Le projet
 
-> Modernisation et harmonisation des outils !
+> Modernization and harmonization of tools!
 
-L'objectif de ce projet était de réduire le nombre d'outils métier en regroupant l'intégralité des données de différents services au sein de l'ERP Dynamics 365.
+The objective of this project was to reduce the number of business tools by consolidating all data from various departments within the ERP Dynamics 365.
 
-### Participation à l'élaboration du cahier des charges
+### Participation in the Requirements Specification
 
-J'ai participer aux réunions d'élaboration du cahier des charges pour s'assurer de la prise en compte des besoins liés au service client.
+I participated in meetings to develop the requirements specification to ensure the needs related to customer service were considered.
 
-### Recettage et phase de test
+### Acceptance and Testing Phase
 
-Lors de la phase de test avant déploiement, le groupe UP m'as confié la phase de test pour la partie service client.
+During the pre-deployment testing phase, UP Group entrusted me with the testing phase for the customer service component.
 
-Ma mission était de m'assurer du bon fonctionnement de l'ERP, de la disponibilité des outils et données nécessaires au métier ainsi qu'à la conformité des données. 
+My mission was to ensure the proper functioning of the ERP, the availability of necessary tools and data, and data compliance. 
 
-#### Formation des utilisateurs
+#### User Training
 
-Il m'as ensuite été confié la formation des utilisateurs de la solution au sein du service client.
-Transmission des process et bonnes pratiques.
+I was then tasked with training the users of the solution within the customer service department.
+Conveying processes and best practices.

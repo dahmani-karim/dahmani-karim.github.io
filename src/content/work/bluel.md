@@ -14,20 +14,20 @@ tags:
 
 ## Scenario
 
-Ce projet m'a engagé à créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.
+This project involved creating a dynamic web page for an interior architect's website using JavaScript and communicating with an API.
 
-J'ai travaillé sur la partie Front-End du site, où j'ai développé la page de présentation des travaux de l'architecte à partir du HTML fourni. Cela a impliqué la gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript.
+I worked on the front end of the site, developing the presentation page for the architect's work from the provided HTML. This included handling user events and manipulating DOM elements with JavaScript.
 
-J'ai également créé une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias.
+I also created a login page for the site administrator and a modal for uploading new media.
 
-Ces éléments ont été développés from scratch, m'offrant l'opportunité de mettre en pratique mes compétences en JavaScript de manière approfondie.
+These elements were developed from scratch, providing an opportunity to deeply practice my JavaScript skills.
 
-Pour la première fois, j'ai eu accès à un code back-end pour tester les fonctionnalités. J'ai appris à communiquer avec une API, ce qui est crucial pour les applications web modernes.
+For the first time, I accessed backend code to test functionalities. I learned to communicate with an API, which is crucial for modern web applications.
 
-J'ai utilisé Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version de mon projet.
+I used Figma to access the mockups, Visual Studio Code for development, and GitHub for version control.
 
 ### Work done
 
-- Gérer les événements utilisateurs avec JavaScript
-- Manipuler les éléments du DOM avec JavaScript
-- Récupérer les données utilisateurs dans le JavaScript via des formulaires
+- Managed user events with JavaScript
+- Manipulated DOM elements with JavaScript
+- Retrieved user data in JavaScript via forms

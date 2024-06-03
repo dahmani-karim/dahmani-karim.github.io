@@ -17,18 +17,18 @@ tags:
 
 ## Scenario
 
-Dans ce projet, j'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS. 
+In this project, I created the homepage for a travel agency using HTML and CSS.
 
-Ma mission principale était d'intégrer l'interface responsive de leur site. J'ai eu à ma disposition les maquettes Figma pour mobile, tablette et desktop, ainsi que les images et une note de synthèse sur les spécificités du projet.
+My main task was to integrate the responsive interface of their site. I had access to Figma mockups for mobile, tablet, and desktop, as well as the images and a summary note on the project specifications.
 
-J'ai été amené à créer mes propres composants d'interface avec HTML et CSS afin d'avoir un rendu correspondant à la maquette.
+I created custom interface components using HTML and CSS to match the design mockups.
 
-Cela m'a donné une compréhension plus profonde de la manière dont le code est structuré et stylisé pour répondre aux exigences de design.
+This gave me a deeper understanding of how code is structured and styled to meet design requirements.
 
-En travaillant sur ce projet, j'ai développé des compétences essentielles en design responsive, assurant que la page d'accueil fonctionne bien sur tous les appareils et tailles d'écran.
+Working on this project, I developed essential skills in responsive design, ensuring that the homepage functions well on all devices and screen sizes.
 
 ### Work done
 
-- Intégrer du contenu conformément à une maquette avec HTML et CSS
-- Implémenter une interface responsive avec HTML et CSS
-- Installer un environnement de développement front-end
+- Integrated content according to a mockup using HTML and CSS
+- Implemented a responsive interface with HTML and CSS
+- Set up a front-end development environment

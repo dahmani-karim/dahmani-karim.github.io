@@ -19,16 +19,16 @@ tags:
 
 ## Scenario
 
-Dans ce projet, j'ai travaillé en tant que développeur freelance pour optimiser le référencement d’un site, en améliorant sa performance et son accessibilité.
+In this project, I worked as a freelance developer to optimize a site's SEO, performance, and accessibility.
 
-Ma première tâche a été d'identifier les problèmes de chargement et de référencement.
+My first task was to identify loading and SEO issues.
 
-Ensuite, j'ai proposé des recommandations pour améliorer la vitesse de chargement, la structure du code et le référencement.
+Next, I proposed recommendations to improve loading speed, code structure, and SEO.
 
-J'ai appliqué les améliorations qui ont été proposées en modifiant le code du site. Mon objectif était d'améliorer les performances et l'accessibilité du site pour un meilleur référencement sur les moteurs de recherche. J'ai utilisé des outils tels que Lighthouse et Wave.
+I implemented the recommended improvements by modifying the site’s code. My goal was to enhance the site’s performance and accessibility for better search engine ranking. I used tools such as Lighthouse and Wave.
 
-Enfin, j'ai créé un rapport illustrant les résultats avant et après les modifications. Ce rapport comprenait des captures d'écran des audits, ainsi que des explications sur les changements apportés et leur impact sur le référencement et l'accessibilité du site.
+Finally, I created a report illustrating the results before and after the modifications. This report included screenshots of audits, explanations of the changes made, and their impact on the site's SEO and accessibility.
 
 ### Work done
 
-- Optimiser la performance d'un site web
+- Optimized the performance of a website

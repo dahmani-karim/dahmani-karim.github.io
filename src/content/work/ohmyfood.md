@@ -18,22 +18,22 @@ tags:
 
 ## Scenario
 
-Ce projet m'a amené à travailler sur l'interface mobile-first du site d'une start-up.
+This project involved working on the mobile-first interface for a startup's website.
 
-J'ai utilisé Sass, implémenté des animations CSS et versionné mon projet avec Git et GitHub.
+I used Sass, implemented CSS animations, and versioned my project with Git and GitHub.
 
-Ma tâche principale a été d'intégrer une maquette en mobile-first.
+My main task was to integrate a mobile-first design.
 
-Je disposais des maquettes pour mobile et desktop, du prototype sur Figma, ainsi que des images et textes nécessaires. Cette approche mobile-first m'a permis de comprendre l'importance de concevoir des sites web adaptatifs et réactifs.
+I had access to mobile and desktop mockups, the prototype on Figma, as well as the necessary images and text. This mobile-first approach allowed me to understand the importance of designing adaptive and responsive websites.
 
-J'ai appris à mettre en œuvre des animations CSS pour enrichir l'expérience utilisateur du site. Ces animations ont donné vie à l'interface et rendu la navigation plus interactive et engageante.
+I learned to implement CSS animations to enhance the user experience of the site. These animations brought the interface to life, making navigation more interactive and engaging.
 
-L'utilisation de SASS, un pré-processeur CSS, a été essentielle pour étendre les fonctionnalités de base du CSS. Cela m'a aidé à écrire des styles plus organisés et maintenables.
+Using SASS, a CSS preprocessor, was essential to extend the basic functionalities of CSS. It helped me write more organized and maintainable styles.
 
-Enfin, j'ai versionné mon projet avec Git et GitHub, me familiarisant ainsi avec ces outils essentiels pour la gestion et la collaboration sur des projets de développement web.
+Finally, I versioned my project with Git and GitHub, familiarizing myself with these essential tools for managing and collaborating on web development projects.
 
 ### Work done
 
-- Versionner son projet avec Git et Github
-- Intégrer une maquette en mobile-first
-- Mettre en œuvre des animations CSS
+- Versioned the project with Git and GitHub
+- Integrated a mobile-first design
+- Implemented CSS animations

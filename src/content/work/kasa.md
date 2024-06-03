@@ -17,20 +17,20 @@ tags:
 
 ## Scenario
 
-Dans ce projet, j'ai implémenté le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.
+In this project, I implemented the front-end of an application using React and React Router to create a modern and responsive user experience.
 
-J'ai travaillé sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur.
+I worked on data presentation logic and React components, a popular JavaScript library for building user interfaces.
 
-J'ai utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Cela m'a permis de comprendre comment gérer efficacement le routage dans une application web moderne.
+I used React Router to set up navigation between different pages of the application. This allowed me to understand how to efficiently manage routing in a modern web application.
 
-Le projet s'est concentré exclusivement sur le développement front-end, en se basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON.
+The project focused exclusively on front-end development, based on provided mockups and using simulated data extracted from a JSON file.
 
-J'ai débuté le projet avec Create React App, un outil qui simplifie la configuration initiale d'une application React. J'ai également utilisé Node.js pour exécuter du code JavaScript en dehors du navigateur. 
+I started the project with Create React App, a tool that simplifies the initial setup of a React application. I also used Node.js to run JavaScript code outside the browser. 
 
 ### Work done
 
-- Développer une interface web avec Sass
-- Initialiser une application avec Create React App
-- Configurer la navigation entre les pages de l'application avec React Router
-- Développer des éléments de l'interface d'un site web grâce à des composants React
-- Mettre en œuvre des animations CSS
+- Developed a web interface with Sass
+- Initialized an application with Create React App
+- Configured navigation between application pages with React Router
+- Developed web interface elements using React components
+- Implemented CSS animations
